@@ -35,10 +35,6 @@ You will need to create an application in Okta:
 * Change the **Base URI** to `http://localhost:8080/` and the **Login redirect URI** to `http://localhost:8080/login/callback`, then click **Done**
 * Save your **Client ID** for later
 
-Your Okta application should have settings similar to the following:
-
-![Okta Application Settings](images/okta-app-settings.png)
-
 Now create a file called `.env` in the `todo-vue` directory and add the following variables, replacing the values with your own from the previous steps.
 
 **todo-vue/.env**
